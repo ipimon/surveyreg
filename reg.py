@@ -4,7 +4,6 @@ import re
 import os
 import datetime
 import time
-import pyautogui
 from openpyxl import load_workbook
 from streamlit_modal import Modal
 
@@ -131,7 +130,8 @@ def registration_form():
                 with modal.container():
                         st.markdown('<h3 style="color: green;">Registration successful!😃😁😃</h3>',unsafe_allow_html=True)
                         time.sleep(4)
-                        pyautogui.hotkey("ctrl", "F5")
+                        st.empty()
+   
                         
             
                
