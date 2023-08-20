@@ -128,9 +128,9 @@ def registration_form():
             # Show success message
             if st.success:
                 with modal.container():
-                        st.markdown('<h3 style="color: green;">Registration successful!😃😁😃</h3>',unsafe_allow_html=True)
-                        time.sleep(4)
-                        pyautogui.hotkey("ctrl", "F5")
+                    st.markdown('<h3 style="color: green;">Registration successful!😃😁😃</h3>',unsafe_allow_html=True)
+                    time.sleep(4)
+                    pyautogui.hotkey("ctrl", "F5")
    
                         
             
